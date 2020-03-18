@@ -25,7 +25,7 @@ module.exports = {
             user: 'xmer',
             host: 'xmer.pw',
             path: '/websites/tutor/mapbox',
-            repo: 'git@github.com/Xmer-Tutor/Mapbox.git',
+            repo: 'git@github.com:/Xmer-Tutor/Mapbox.git',
             ref: 'origin/master',
             'post-deploy': 'yarn install && yarn build && pm2 startOrRestart ecoSystem.config.js --env production',
             env: {
