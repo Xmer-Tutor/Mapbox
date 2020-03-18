@@ -1,23 +1,9 @@
+import data from './icons.json'
+
 export default (map, mapboxgl) => {
     map.addSource('places', {
-        'type': 'geojson',
-        'data': {
-            'type': 'FeatureCollection',
-            'features': [
-                {
-                    'type': 'Feature',
-                    'properties': {
-                        'description':
-                        'Ooo, I love this place!',
-                        'icon': 'theatre'
-                    },
-                    'geometry': {
-                        'type': 'Point',
-                        'coordinates': [-86.5861, 34.7304]
-                    }
-                }
-            ]
-        }
+        type: 'geojson',
+        data
     })
 
     map.addLayer({

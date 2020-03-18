@@ -1,0 +1,17 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "description":
+                "Ooo, I love this place! <br /> Home sweet home",
+                "icon": "theatre"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-86.5861, 34.7304]
+            }
+        }
+    ]
+}
