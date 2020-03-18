@@ -1,8 +1,8 @@
 let port = 1100
 
 module.exports = {
-	apps : [
-		{
+    apps : [
+        {
             name: 'tutor.mapbox',
             autorestart: true,
             instances: 1,
@@ -33,4 +33,4 @@ module.exports = {
             }
         }
     }
-};
+}

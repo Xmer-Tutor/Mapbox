@@ -1,0 +1,70 @@
+{
+  "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+  },
+  "settings": {
+      "react": {
+          "version": "detect"
+      }
+  },
+  "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+  ],
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+      "ecmaVersion": 2017,
+      "ecmaFeatures": {
+          "jsx": true,
+          "impliedStrict": true,
+          "experimentalObjectRestSpread": true
+      }
+  },
+  "plugins": [
+      "react"
+  ],
+  "rules": {
+      "class-methods-use-this": "error",
+      "eqeqeq": [
+          "error",
+          "always"
+      ],
+      "indent": [
+          "error",
+          4,
+          {
+              "SwitchCase": 1
+          }
+      ],
+      "linebreak-style": [
+          "error",
+          "windows"
+      ],
+      "no-console": "error",
+      "prefer-const": [
+          "error",
+          {
+              "destructuring": "any"
+          }
+      ],
+      "quotes": [
+        "error",
+        "single",
+          {
+              "avoidEscape": true
+          }
+      ],
+      "semi": [
+          "error",
+          "never"
+      ],
+      "react/prop-types": "error"
+  }
+}
